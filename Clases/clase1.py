@@ -4,4 +4,4 @@ Saludo = "hola mundo"
 Edad = 19
 Estatura = 1.80
 
-print(saludo, Edad, Estatura)
+print(Saludo, Edad, Estatura)
