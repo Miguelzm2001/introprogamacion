@@ -61,13 +61,19 @@ class Canguro():
 
 print ("#"*6, "Saltos del Canguro", "#"*6)
 Canguro1 = Canguro (30, 76765456, "Pepe")
-Canguro1.SaltosCanguro (9)
+Canguro1.SaltosCanguro (2)
 
 #---Punto 5---#
 class Instrumento():
-    def __init__(self, Nombre, Tipo, Color, Marca):
+    def __init__(self, Nombre, Color, Años):
         self.Nombre = Nombre
-        self.Tipo = Tipo
-        self.Color = Color
-        self.Marca = Marca 
-    def Interpretar (self, cancion)
+        self.Color = Color 
+        self.Años = Años
+    def Interpretar (self, melodia):
+        print(f"Se está interpretando la melodia {melodia} en el {self.Nombre}, el cual es de color {self.Color} y tiene {self.Años} años de uso")
+
+print ("#"*6, "Instrumento", "#"*6)
+Instrumento1 = Instrumento ("Piano", "negro", 8)
+Instrumento1.Interpretar ("spring waltz")
+
+
