@@ -1,0 +1,8 @@
+Archivo de pacientes neurologicosEquipo : jhjh
+Descripcion : guj
+Precio : 767
+==============
+Equipo : Miguel
+Descripcion : Migraña
+Precio : 5000
+==============
